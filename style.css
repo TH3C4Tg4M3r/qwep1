@@ -28,3 +28,10 @@ a:hover {
     transform: scale(1.05); /* expand on hover */
     box-shadow: 0 0 25px rgba(255, 255, 255, 0.7); /* stronger glow */
 }
+
+.centered-text {
+    text-align: center;           /* centers text horizontally */
+    color: white;                 /* makes text white */
+    font-family: 'Saira', sans-serif; /* modern font */
+    font-size: 3rem;              /* optional size */
+}
