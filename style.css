@@ -35,3 +35,27 @@ a:hover {
     font-family: 'Saira', sans-serif; /* modern font */
     font-size: 3rem;              /* optional size */
 }
+
+.glow-button {
+    font-family: 'Saira', sans-serif; /* modern font */
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background-color: #1e293b;       /* dark button background */
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;             /* rounded corners */
+    padding: 12px 24px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5); /* glow */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.glow-button:hover {
+    transform: scale(1.05);           /* enlarge slightly */
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.7); /* stronger glow */
+    background-color: #273549;        /* lighter hover background */
+}
+
+.glow-button:focus {
+    outline: none;                    /* remove focus outline */
+}
