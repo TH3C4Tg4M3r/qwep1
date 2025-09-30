@@ -29,7 +29,9 @@ a:hover {
     box-shadow: 0 0 25px rgba(255, 255, 255, 0.7); /* stronger glow */
 }
 
-.iframe-container {
-    text-align: center; /* centers inline/inline-block elements horizontally */
+.centered-iframe {
+    display: block;    /* make it a block-level element */
+    margin: 0 auto;    /* horizontal auto margins center it */
 }
+
 
