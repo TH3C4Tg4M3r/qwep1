@@ -1,8 +1,9 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #1e293b; /* changed color */
+  background-color: #1e293b; /* DARK GRAY-BLUE */
   margin: 0;
   padding: 0;
+  color: white; /* text visible on dark background */
 }
 
 header {
